@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contador interactivo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+            background-color: #f4f4f9;
+        }
+        .contador {
+            font-size: 4rem;
+            font-weight: bold;
+            color: #333;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 1.2rem;
+            margin: 5px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            background-color: #007BFF;
+            color: white;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        #mensaje {
+            margin-top: 20px;
+            font-size: 1.5rem;
+            color: green;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    
+    <h1> mi contador en js</h1>
+
+    <div class="contador" id="contador">0</div>
+
+    <button id="btnrestar">Restar -</button>
+    <button id="btnsumar">Sumar +</button>
+    
+    <div id="mensaje"></div>
+    <script src="script.js"></script>
+</body>
+</html>
